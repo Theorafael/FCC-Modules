@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+
+    <!-- Title / Head -->
+
+    <h1 id="title">Survey on Public Perception of Technological Advancements</h1>
+    <p id="description">We appreciate you taking the time to complete this survey. Your response will be invaluable for my upcoming project.</p>
+
+
+    <form action="" id="survey-form">
+        <label for=""> Name
+            <input type="text" name="text" id="name" placeholder="..." required>
+        </label>
+        <label for=""> Email
+            <input type="email" name="email" id="email" placeholder="..." required>
+        </label>
+        <label for=""> Number 
+            <input type="number" name="age" id="number" min="11" max="15" placeholder="..." required>
+        </label>
+
+        <label for="" id="name-label">
+            Name
+        </label>
+        <label for="" id="email-label">
+            Email
+        </label>
+        <label for="" id="number-label">
+            Number
+        </label>
+
+        <select name="" id="dropdown">
+            <option value="1"> Option 1</option>
+            <option value="2"> Option 2</option>
+        </select>
+
+        <fieldset>
+            <legend>Group 1:</legend>
+            <label><input type="radio" name="group1" value="option1"> Option 1</label><br>
+            <label><input type="radio" name="group1" value="option2"> Option 2</label>
+          </fieldset>
+        
+          <fieldset>
+            <legend>Group 2:</legend>
+            <label><input type="radio" name="group2" value="option3"> Option 3</label><br>
+            <label><input type="radio" name="group2" value="option4"> Option 4</label>
+          </fieldset>
+
+          label for="question1">Question 1:</label>
+        <input type="checkbox" name="question1" value="option1"> Option 1<br>
+        <input type="checkbox" name="question1" value="option2"> Option 2<br>
+
+        <label for="question2">Question 2:</label>
+        <input type="checkbox" name="question2" value="option3"> Option 3<br>
+        <input type="checkbox" name="question2" value="option4"> Option 4<br>
+
+        <label for="question3">Question 3:</label>
+        <textarea id="question3" name="question3" rows="4" cols="50"></textarea>
+
+        <input type="submit" id="submit" value="Submit">
+    </form>
+</body>
+</html>
