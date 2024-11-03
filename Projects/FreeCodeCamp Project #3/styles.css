@@ -1,0 +1,18 @@
+/* file: styles.css */
+#main{
+    background-color: rgb(120, 40, 55);
+    width: 100px;
+    height: 45px;
+  }
+  .nav{
+    position: absolute;
+    color: rgb(20, 20, 100)
+  }
+  @media (max-width: 120px){
+    .h1{
+      color: black;
+    }
+    .nav-bar{
+      float: left;
+    }
+  }
